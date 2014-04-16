@@ -291,7 +291,7 @@ DLG_OPEN_CONFIG				指定配置文件导入
 DLG_STRING_DEFTITLE			输入字符串
 DLG_STRING_DEFINFO			请输入字符串。
 DLG_ABOUT_LEGAL				法律公告
-DLG_UPDATE_DATE				\ (Released on %S)
+DLG_UPDATE_DATE				\ (发布于 %S)
 DLG_UPDATE_HINT				按 确定 查看网页浏览器最新更新的信息。\r\n\r\n您必须手动下载并安装更新。如果你想在其他电脑上更新软件，您必须登录到计算机通过远程桌面或 SSH 进行下载和更新。
 
 
@@ -437,16 +437,16 @@ CC_WARNING_MSG				您是否想让您当前连接使用的证书，在下次连�
 
 # 关于 Windows 版本的错误
 WINVER_TITLE				有关 Windows 版本的警告
-WINVER_ERROR_FORMAT			Windows %s 的版本和补丁包是“%S”。\r\n\r\Windows %s 最新支持的版本和补丁包如下：\r\n%S \r\n因为 Windows 在 %s 的版本比%s支持 Windows 的版本还要新，可能会发生意想不到的麻烦或兼容问题。\r\n为了避免出现问题，建议以获取并安装 %s 最新的更新\r\n可以继续使用当前未更新的版本，但不建议这样做。\r\n\r\n如果你是管理员，你可以免费下载 %s 的最新更新补丁，从 http://selinks.org/ 网站。\r\n\r\n如果您不是管理员，你应该将此消息通知 VPN Server 的管理员。\r\n\r\n----- MSG%04u%02u -----\r\n\r\n
+WINVER_ERROR_FORMAT			Windows %s 的服务包版本是“%S”。\r\n\r\Windows %s 最新支持的版本和服务包如下：\r\n%S \r\n因为 Windows 在 %s 的版本比%s支持 Windows 的版本还要新，可能会发生意想不到的麻烦或兼容问题。\r\n为了避免出现问题，建议以获取并安装 %s 最新的更新\r\n可以继续使用当前未更新的版本，但不建议这样做。\r\n\r\n如果你是管理员，你可以免费从 http://selinks.org/ 网站下载 %s 的最新更新补丁。\r\n\r\n如果你不是管理员，你应该将此消息通知给 VPN Server 的管理员。\r\n\r\n----- MSG%04u%02u -----\r\n\r\n
 WINVER_ERROR_VPNSERVER		在目标计算机上的 VPN Server
-WINVER_ERROR_VPNBRIDGE		在目标计算机上的 VPN  Bridge
+WINVER_ERROR_VPNBRIDGE		在目标计算机上的 VPN Bridge
 WINVER_ERROR_VPNCLIENT		在本地计算机上的 VPN Client
 WINVER_ERROR_PC_LOCAL		此本地计算机
 WINVER_ERROR_PC_REMOTE		远程服务器
 
 
 # 开源版本的警告
-OSS_MSG						欢迎来到 SoftEther VPN 服务器学术版 !\r\n\r\n此 VPN 服务器作为日本筑波大学的一个学术研究由免费软件开发的，且由，开源 (GPL) SoftEther 项目 (http://www.softether.org/) 为公众利益免费发布的。\r\n\r\nSoftEther VPN 软件是作为筑波大学和 SoftEther 公司之间的联合研究合同的一部分而发布给公众的。SoftEther VPN 软件的开发和发布仅为学术研究目的。因此，对 SoftEther VPN 软件不提供支持服务，即使它包含错误或漏洞。用户将对使用 SoftEther VPN 的结果承担责任。 SoftEther VPN 的开发者和发行者都将永远不会为任何后果或损失承担责任。\r\n\r\n在您同意上述启示后，使用 SoftEther VPN 服务器享受 VPN 通信。\r\n\r\n对于 SoftEther VPN 的更多细节，请参阅 http://www.softether.org/ 。\r\n\r\n
+OSS_MSG						欢迎来到 SoftEther VPN 服务器学术版 !\r\n\r\n此 VPN 服务器作为日本筑波大学的一个学术研究由免费软件开发的，且由，开源 (GPL) SoftEther 项目 (http://www.softether.org/) 为公众利益免费发布的。\r\n\r\nSoftEther VPN 软件是作为筑波大学和 SoftEther 公司之间的联合研究合同的一部分而发布给公众的。SoftEther VPN 软件的开发和发布仅为学术研究目的。因此，对 SoftEther VPN 软件不提供支持服务，即使它包含错误或漏洞。用户将对使用 SoftEther VPN 的结果承担责任。 SoftEther VPN 的开发者和发行者都将永远不会为任何后果或损失承担责任。\r\n\r\n在您同意上述启示后，使用 SoftEther VPN 服务器享受 VPN 通信。\r\n\r\n对于 SoftEther VPN 的更多细节，请参阅 http://www.softether.org/。\r\n\r\n
 
 
 
@@ -540,16 +540,16 @@ HUB_AO_DisableKernelModeSecureNAT			如果您将此选项设置为非零值，�
 HUB_AO_DisableUserModeSecureNAT				如果您将此选项设置为非零值，那么在 SecureNAT 功能上的用户模式 NAT 功能将被禁用。用户模式 NAT 是一个使 NAT 可以作为普通用户权限运行的功能。
 HUB_AO_DisableCheckMacOnLocalBridge			如果您将此选项设置为非零值，那么 MAC 地址重复检查在本地桥功能上将被禁用。一些网络适配器有反射传出的数据包向虚拟 HUB 的问题。虚拟 HUB 自动检测这样的重复，并丢弃它们。启用此标志来禁用检测，并丢弃。
 HUB_AO_DisableCorrectIpOffloadChecksum		如果您将此选项设置为非零值，那么在本地桥功能上检查和纠正 IP 校验和值。有些有 IP、TCP 或 UDP 包头的校验和卸载引擎的网络适配器，以不完整的校验和值传输数据包。这样的数据包不能被接收端正确对待。所以本地桥检测到这样的数据包，并纠正了它的校验和字段。启用此标志来禁用这种纠正。
-HUB_AO_BroadcastLimiterStrictMode			If you set this option to non-zero value, then the broadcast-storm detection algorithm will compare either source or destination IP address of each packet. If any of the two fields matches, the packet will be recorded on the short-term history of broadcast-storm detection state machine.
+HUB_AO_BroadcastLimiterStrictMode			如果您将此选项设置为非零值，那么广播风暴侦测算法将比较每个数据包的来源和目标 IP 地址。如果两个字段匹配，此数据包将被记录在广播风暴侦测状态机的短期历史中。
 
 #关于失败连接对话框
 ERRDLG_ERRMSG				错误(错误代码 %u) :\r\n\r\n%s\r\n
 ERRDLG_RETRYCOUNT			%u 秒后将自动进行重新连接...
 ERRDLG_INFORMATION			点击“重试”，重新进行连接。
-ERRDLG_RETRY_INFO_1			你想重试吗？ (%u 重试 / %u 总重试)
-ERRDLG_RETRY_INFO_2			你想重试吗？ (%u 重试 / 总无限重试)
-ERRDLG_DISCONNECTED_MSG		VPN Server "%S" 连接已被切断
-ERRDLG_DEVICE_ERROR			与 VPN Server 的连接被中断，因为虚拟网络适配器 (设备名称: %S) 已停止。\r\n\r\n错误代码 %u: %s
+ERRDLG_RETRY_INFO_1			你想重试吗？ (%u 次重试 / %u 总共重试)
+ERRDLG_RETRY_INFO_2			你想重试吗？ (%u 次重试 / 无限重试)
+ERRDLG_DISCONNECTED_MSG		与 VPN Server "%S" 的连接已中断。
+ERRDLG_DEVICE_ERROR			与 VPN Server 的连接已被中断，因为虚拟网络适配器 (设备名称: %S) 已停止。\r\n\r\n错误代码 %u: %s
 
 
 # 关于协议
@@ -590,13 +590,13 @@ CT_b_must_install_pcap		未安装数据包捕获驱动
 CT_b_tap_supported			支持 tun/tap 设备 (仅在 Linux)
 CT_b_support_config_hub		支持更改虚拟 HUB 设置
 CT_b_support_securenat		支持 SecureNAT
-CT_b_virtual_nat_disabled	虚拟 NAT 无效 (仅 DHCP 有效)
+CT_b_virtual_nat_disabled	虚拟 NAT 已禁用 (仅 DHCP 有效)
 CT_b_support_cascade		支持级联连接
 CT_b_support_cascade_cert	支持级联连接服务器认证
 CT_b_support_config_log		支持更改保存日志设置
 CT_b_support_autodelete		支持自动删除日志文件
 CT_b_support_radius			支持外部认证服务器
-CT_b_support_config_rw		支持 Config 文件的远程读写
+CT_b_support_config_rw		支持配置文件的远程读写
 CT_b_support_hub_admin_option	支持虚拟 HUB 管理选项
 CT_b_support_cascade_client_cert	支持级联连接客户证书
 CT_b_support_hide_hub		支持虚拟 HUB 枚举设定
@@ -640,9 +640,9 @@ CT_b_support_redirect_url_acl	支持访问列表 HTTP URL 改道
 CT_b_is_in_vm				虚拟机上运行
 CT_b_support_azure			支持 VPN Azure
 CT_b_support_intel_aes		支持 Intel CPU AES 加密加速功能 (AES-NI)
-CT_b_using_selow_driver		支持 SoftEther Lightweight Kernel-mode Ethernet Driver
+CT_b_using_selow_driver		支持 SoftEther 轻量级内核以太网驱动
 CT_b_support_vgs			支持 VPN Gate 服务的服务器功能
-CT_b_support_vgs_in_client	VPN Gate 服务的服务器功能 (VPN 客户端集成)
+CT_b_support_vgs_in_client	VPN Gate 服务的服务器功能 (VPN 客户端已集成)
 CT_b_is_softether			SoftEther VPN 的免费或开源版
 
 
@@ -673,9 +673,9 @@ POL_4						拒绝网桥运行
 POL_EX_4					网桥模式的连接被有此策略设置的用户会话拒绝。即使当以太网网桥在客户端被配置的情况下，通信将是不可能的。
 POL_5						拒绝路由操作 (IPv4)
 POL_EX_5					有此策略设置的会话将拒绝 IPv4 路由。即便 IP 路由器运行在客户端，通讯仍将无法建立。
-POL_6						拒绝 MAC 地址复制
+POL_6						拒绝 MAC 地址重复
 POL_EX_6					有此策略设置的会话无法使用正在被不同会话的计算机占用的重复 MAC 地址。
-POL_7						拒绝 IP 地址复制 (IPv4)
+POL_7						拒绝 IP 地址重复 (IPv4)
 POL_EX_7					有此策略设置的会话无法使用正在被不同会话的计算机占用的重复 IPv4 地址。
 POL_8						拒绝非的 ARP / 非 DHCP / 非 ICMPv6 广播
 POL_EX_8					有此策略设置的会话不允许在虚拟网络上有 ARP 协议，DHCP 协议、ICMPv6 协议广播数据包的发送和接收
@@ -718,14 +718,14 @@ POL_25						不允许 DHCP 服务器运行(IPv6)
 POL_EX_25					连接到有此策略设置的会话的计算机将不允许成为 DHCP 服务器，也无法对 DHCP 用户分配 IPv6 地址 / DNS 信息。
 POL_26						拒绝路由操作 (IPv6)
 POL_EX_26					有此策略设置的会话将拒绝 IPv6 路由。即便 IP 路由器运行在客户端，通讯仍将无法建立。
-POL_27						拒绝 IP 地址复制 (IPv6)
-POL_EX_27					有此策略设置的会话无法使用正在被不同会话的计算机占用的复制的 IPv6 地址。
+POL_27						拒绝 IP 地址重复 (IPv6)
+POL_EX_27					有此策略设置的会话将不允许计算机使用重复的 IPv6 地址占用的不同的会话。
 POL_28						拒绝作为 TCP/IP 服务器运行 (IPv6)
 POL_EX_28					有此策略设置会话的计算机不能收听或接受 IPv6 TCP/IP连接。
 POL_29						最大 IP 地址数 (IPv6)
 POL_EX_29					对有此策略设置的会话，指定单个会话可注册的 IPv6 地址数。
 POL_30						VPN Client 不接受密码保存
-POL_EX_30					对有此策略设置的用户，用户在客户端将不再能够保存密码。用户每次连接 VPN 时均需要输入密码。这将提高安全性。如果启用此策略， VPN Client 2.0 版本将被拒绝连接。
+POL_EX_30					此策略设置将不允许用户在客户端保存密码，用户每次连接 VPN 时均须输入密码。这有助提高安全性。如果启用此策略， VPN Client 2.0 版本将被拒绝连接。
 POL_31						VPN Client 自动断开
 POL_EX_31					对有此策略设置的用户，在特定的一段时间过去后，用户的 VPN 会话将被自动断开。这种情况下将不执行自动重新连接。这将防止大量不活跃的 VPN 会话。如果启用此策略， VPN Client 2.0 版将被拒绝连接。
 POL_32						过滤所有 IPv4 数据包
@@ -760,7 +760,7 @@ CM_CONNECT_FAILED			无法连接到 %s 上的 VPN Client 服务。\r\n确认 VPN
 CM_BAD_PASSWORD				密码错误。请重新输入密码。密码大小写敏感。
 CM_NUM_CONN_COUNT			VPN 连接中: %u 账户
 CM_CONN_NO					未连接
-CM_PRODUCT_NAME				SoftEther VPN Client Build %u
+CM_PRODUCT_NAME				SoftEther VPN Client 版本 %u
 CM_ACCOUNT_COLUMN_1			VPN 连接设置名称
 CM_ACCOUNT_COLUMN_2			状态
 CM_ACCOUNT_COLUMN_3			VPN Server 主机名(地址)
@@ -937,19 +937,19 @@ CM_VLAN_INSTALLING			请稍候...
 CM_SECURE_MUST_LOCAL		因为目前您对远程计算机进行连接并管理 VPN Client，因此无法修改智能卡设置。
 CM_DETAIL_MODE_LINK_STR		使用级联，则“通过网桥，路由模式连接”始终启用。
 CM_TRAY_INITING				VPN Client 管理器
-CM_TRAY_NOT_CONNECTED		VPN Client 管理器\r\n未连接
-CM_TRAY_CONNECTED_0			VPN Client 管理器\r\n主动连接到%u个服务器，并尝试连接到 %u 个服务器
-CM_TRAY_CONNECTED_1			VPN Client 管理器\r\n尝试连接到%u个服务器
-CM_TRAY_CONNECTED_2			VPN Client 管理器\r\n的 %u 个服务器中的连接
+CM_TRAY_NOT_CONNECTED		VPN Client 管理器\r\n未连接。
+CM_TRAY_CONNECTED_0			VPN Client 管理器\r\n活跃着 %u 个服务器连接，并正尝试连接 %u 个服务器
+CM_TRAY_CONNECTED_1			VPN Client 管理器\r\n正尝试连接到 %u 个服务器。
+CM_TRAY_CONNECTED_2			VPN Client 管理器\r\n活跃着 %u 个服务器连接
 CM_TRAY_MENU_1_SHOW			显示 VPN Client 管理器(&S)
 CM_TRAY_MENU_1_HIDE			关闭 VPN Client 管理器(&O)
 CM_TRAY_MENU_2_QUIT			退出 VPN Client 管理器程序(&X)
 CM_TRAY_MENU_CONNECT		启动 VPN 连接(&C)
 CM_TRAY_MENU_DISCONNECT		断开 VPN 连接(&D)
 CM_TRAY_MENU_STATUS			查看 VPN 连接状态(&I)
-CM_TRAY_MENU_DISCONNECT_ALL	断开所有的 VPN 连接(&A)
+CM_TRAY_MENU_DISCONNECT_ALL	断开所有 VPN 连接(&A)
 CM_TRAY_MENU_NEW			创建一个新的连接设置(&N)
-CM_TRAY_MENU_RECENT			近使用的 VPN Server(&Y)
+CM_TRAY_MENU_RECENT			最近使用的 VPN Server(&Y)
 CM_TRAY_MENU_TRAFFIC		网格和通信速度测试工具(&R)
 CM_TRAY_MENU_NETIF			查看网络设备的状态(&D)
 CM_TRAY_MENU_ABOUT			关于 VPN Client 管理器(&A)
@@ -995,7 +995,7 @@ VGC_COLUMN_12			操作员的名字
 VGC_COLUMN_13			操作员的消息
 VGC_COLUMN_14			总分
 
-VGC_LOG_PERMANENT		永久的
+VGC_LOG_PERMANENT		永久
 VGC_LOG_2WEEKS			两周
 VGC_LOG_NONE			无日志
 
@@ -1007,7 +1007,7 @@ VGC_NUM_LOGIN			%S 登录次数
 
 VGC_UDP_AVAILABLE		UDP OK
 
-VGC_LIST_STR_OK			在这个地球上的 %S 公共 VPN 中继服务器 ! (更新于 %S)
+VGC_LIST_STR_OK			在这个地球上的 %S 公共 VPN 中继服务器! (更新于 %S)
 VGC_LIST_STR_OK_2		%S 服务器 (更新于 %S) - 服务器列表更新失败。如果再次失败，请下载最新的 VPN Gate Client。
 VGC_LIST_STR_NG			服务器列表更新失败。如果再次失败，请下载最新的 VPN Gate Client。
 VGC_PROXY_MSG			如果您使用的是代理服务器，您可能无法使用不支持 TCP 443 端口、从这样的代理委托网络、作为 "SSL-VPN 连接" 的 VPN 中继服务器。
@@ -1017,11 +1017,11 @@ VGS_NO_HUB_YET			为了设置消息，首先你得提交启用 VPN Gate 服务�
 
 VGC_TITLE				VPN Gate 插件消息
 
-VGC_VER_DIFF			VPN Gate 客户端插件的版本与 SoftEther VPN 客户端相异。\r\n\r\n- 当前的 VPN Gate 插件: Build %u\r\n- 当前的 SoftEther VPN 客户端: Build %u\r\n\r\n推荐下载并安装 VPN Gate 插件 Build %u，否则可能出现通信错误或列表更新出错。VPN 服务器列表更新失败多次，请更新 VPN Gate 插件版本。\r\n\r\n最新的 VPN Gate 插件可用于 http://www.vpngate.net/。\r\n(如果您无法直接访问上述网站，请使用镜像站点。)\r\n\r\n)\r\n\r\n
+VGC_VER_DIFF			VPN Gate 客户端插件的版本与 SoftEther VPN 客户端相异。\r\n\r\n- 当前的 VPN Gate 插件: Build %u\r\n- 当前的 SoftEther VPN 客户端: Build %u\r\n\r\n推荐下载并安装 VPN Gate 插件 Build %u，否则可能出现通信错误或列表更新出错。VPN 服务器列表更新失败多次，请更新 VPN Gate 插件版本。\r\n\r\n最新的 VPN Gate 插件可用于 http://www.vpngate.net/。\r\n(如果您无法直接访问上述网站，请使用镜像站点。)\r\n\r\n
 
 VGS_STOP				VPN Gate 服务将在您点击 确定 按钮后停止。\r\n\r\n在 VPN Gate 服务被停止后，这台计算机将不会接受新的 VPN 连接请求，但是，仍然活跃的 VPN 会话可能会残留。\r\n (这类 VPN 会话有时在枚举中不可见。) \r\n\r\n要想彻底终止所有仍然活跃的 VPN 会话，重启 SoftEther VPN Server 或者 SoftEther VPN Client 服务，或者重新启动这台计算机。
 
-VGS_START				This will activate the VPN Gate Relay Service function.\r\n\r\nVPN Gate Relay Service function must be activated by your own risk.\r\nSome countries prohibit using of encrypted VPN by laws.\r\nFor more details about VPN Gate Relay Service please visit http://www.vpngate.net/en/join.aspx.\r\n\r\nThe VPN Gate Academic Experiment Service is operated as a research project at the graduate school on University of Tsukuba, Japan. The service is governed under the Japanese laws. Other countries' laws are none of our concerns nor responsibilities.\r\n\r\nBy nature, there are almost 200 countries in the World, with different laws. It is impossible to verify every countries' laws and regulations and make the software comply with all countries' laws in advance to release the software. If a user uses VPN Gate service in a specific country, and damaged by public servants of the authority, the developer of either the service or software will never be liable to recover or compensate such damages or criminal responsibilities.\r\nBy using this software and service, the user must observe all concerned laws and rules with user's own responsibility. The user will be completely liable to any damages and responsibilities which are results of using this software and service, regardless of either inside or outside of Japan's territory.\r\nIf you don't agree nor understand the above warnings, do not use any of VPN Gate Academic Experiment Service functions.
+VGS_START				这将激活 VPN Gate 中继服务功能。\r\n\r\n激活 VPN Gate 中继服务功能所带来的风险必须由您承担。\r\n部分国家的法律禁止使用加密的 VPN。\r\n有关 VPN Gate 中继服务的更多信息请访问 http://www.vpngate.net/en/join.aspx。\r\n\r\nThe VPN Gate 学术实验服务是作为日本筑波大学研究生院的一个研究项目运营的。该服务受日本法律管理。其他国家的法律不受我们关注也不承担责任。\r\n\r\n从本质上讲，在世界上有近 200 个国家，都有不同的法律。不可能在软件发布前去验证每一个国家的法律和法规，并使我们的软件符合所有国家的法律。如果用户在一个特定的国家使用 VPN Gate 服务，损坏公务人员的权力，服务或软件的开发者将永远不会负责恢复或补偿等损害或刑事责任。\r\n通过使用本软件和服务，用户有自己的义务必须遵守所有相关的法律和规则。用户将完全承担任何损失和使用本软件及服务导致的责任，无论日本领土以内还是以外。\r\n如果你不同意也不理解上述警告，不要使用任何 VPN Gate 学术实验服务功能。
 
 
 
@@ -2408,8 +2408,8 @@ STATIC7						保持互联网连接功能(&K)
 
 PREFIX						D_ABOUT
 S_INFO1					SoftEther VPN %u.0 (Ver %u.%02u, Build %u)
-S_INFO2				An Open-Source VPN Software for Academic Purpose, under the GPLv2 License.\r\nCopyright (c) 2012-%u SoftEther Project at University of Tsukuba, Japan. All Rights Reserved.\r\nWeb Site: http://www.softether.org/\r\n%S
-S_INFO3					This product includes the following software components:\r\nBitVisor: Copyright (c) 2007, 2008 University of Tsukuba. Copyright (C) 2007, 2008 National Institute of Information and Communications Technology. All rights reserved. / Microsoft(R) C Runtime Library: (c) 2007 Microsoft Corporation. All Rights Reserved. / PKCS #11 Cryptographic Token Interface (Cryptoki): Copyright (c) RSA Security Inc. / WinPcap: Copyright (c) 2001 - 2003 NetGroup, Politecnico di Torino (Italy). All rights reserved. / libedit: Copyright (c) 1992, 1993 The Regents of the University of California. All rights reserved. / libiconv: Copyright (C) 2007 Free Software Foundation, Inc. / ncurses: Copyright (c) 1998-2005, 2006 Free Software Foundation, Inc. / OpenSSL: Copyright (c) 1998-2011 The OpenSSL Project. All rights reserved. This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/). This product includes cryptographic software written by Eric Young (eay@cryptsoft.com). / zlib: (C) 1995-2004 Jean-loup Gailly and Mark Adler. / Special Thanks to: Software Laboratory, Academic Computing Communication Center, Industrial Liaison and Cooperative Research Center and Professor Yasushi Shinjo in University of Tsukuba, Japan.
+S_INFO2				一个面向学术研究的开源 VPN 软件，采用 GPLv2 许可证。\r\n版权所有 (c) 2012-%u 日本筑波大学 SoftEther 项目。保留所有权利。\r\nWeb Site: http://www.softether.org/\r\n%S
+S_INFO3					本产品包含下列软件组件：\r\nBitVisor: Copyright (c) 2007, 2008 University of Tsukuba. Copyright (C) 2007, 2008 National Institute of Information and Communications Technology. All rights reserved. / Microsoft(R) C Runtime Library: (c) 2007 Microsoft Corporation. All Rights Reserved. / PKCS #11 Cryptographic Token Interface (Cryptoki): Copyright (c) RSA Security Inc. / WinPcap: Copyright (c) 2001 - 2003 NetGroup, Politecnico di Torino (Italy). All rights reserved. / libedit: Copyright (c) 1992, 1993 The Regents of the University of California. All rights reserved. / libiconv: Copyright (C) 2007 Free Software Foundation, Inc. / ncurses: Copyright (c) 1998-2005, 2006 Free Software Foundation, Inc. / OpenSSL: Copyright (c) 1998-2011 The OpenSSL Project. All rights reserved. This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/). This product includes cryptographic software written by Eric Young (eay@cryptsoft.com). / zlib: (C) 1995-2004 Jean-loup Gailly and Mark Adler. / 特别感谢：Software Laboratory, Academic Computing Communication Center, Industrial Liaison and Cooperative Research Center and Professor Yasushi Shinjo in University of Tsukuba, Japan.
 S_INFO4				此 VPN 服务器作为的一个学术研究且由 (http://www.softether.org/) 为公众利益免费发布的。本软件是日本筑波大学 SoftEther 项目下开发的免费软件，无任何担保。开发人员、版权所有者或分销商在任何情况下对于使用本软件的任何索赔、损害赔偿或其他情况不承担责任。\r\n\r\nSoftEther VPN 是日本政府的研究和开发项目的一项工作，由日本的经济、贸易和工业部资助，由信息化推进机构管理。
 IDCANCEL				确定(&O)
 B_WEB 访问				SoftEther VPN 和网站 (&W)...
@@ -2631,7 +2631,7 @@ R_X509_AND_KEY				保存为 X509 证书 (.CER) 和密钥文件 (.KEY) (&X)
 R_PKCS12					保存为 PKCS#12 文件 (.P12) (&P)
 R_SECURE					写入智能卡(&S)
 STATIC3						切割成两个文件保存: 一个标准 Base 64 编码证书文件和一个密钥文件。
-STATIC4						保存为 PKCS#12 (Public Key Cryptography Standard #12) 文件。\r\n您可以将证书和密钥保存到一个 PKCS#12 文件中。
+STATIC4						保存为 PKCS#12 (公钥加密标准 #12) 文件。\r\n您可以将证书和密钥保存到一个 PKCS#12 文件中。
 STATIC5						当智能卡连接到此计算机时，您可以向智能卡中写入证书和密钥。
 B_SELECT					选择要使用的智能卡(&S)...
 S_PASS3						密钥保护(&R)
